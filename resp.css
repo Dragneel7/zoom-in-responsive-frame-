@@ -1,0 +1,255 @@
+body{
+	padding: 0;
+	margin: auto;
+	position: relative;
+	min-height: 100vh;
+	background-image: url("back.jpg");
+	background-size: cover;
+	color: white;
+}
+.header{
+	width: 100%;
+	height: 4em;
+	background: lightblue;
+	box-sizing: border-box;
+	margin: 0;
+	position: fixed;
+	z-index: +1;
+
+}
+#logo{
+	border:  1px solid black;
+	width:4em;
+	height: 3em;
+	margin-top: .5em;
+	margin-left: 1em;
+}
+#company_name{
+	position: absolute;
+	margin-left: 3em;
+	font-size: 2.5em;
+	margin-top: .2em;
+	
+}
+.nav{
+	float: right;
+	margin-right: 2em;
+box-sizing: border-box;
+margin-top: -3.4em;
+/*how to allign without negative measurements*/ 
+	/*use position*/
+	
+	
+}
+.navtag{
+height: 3em;
+width: 4em;
+border:  1px solid black;
+padding-left: .5em;
+margin-top:0em;
+
+}
+#name{
+	margin-left:35vw;
+	
+	font-size: 2em;
+font-weight: bolder;
+}
+.border{
+	width: 99.8%;
+	background: #95C5DA;
+position: relative;
+top:3em;
+border:  1px solid white;
+}
+.add2{
+	position: relative;
+	top: 4em;
+	float: right;
+	width: 10em;
+	border: 1px solid black;
+	margin-right:1em;
+	height: 30em; 
+
+
+}
+.body{
+	
+	width: 40%;
+position: absolute;
+top:20vh;
+	margin-left: 30vw;
+}
+body h2{
+
+	margin-left: 10vw;
+} 
+
+
+.add1{position: relative;
+	top: 4em;
+	margin-left:1em;
+	
+	width: 10em;
+	border: 1px solid black;
+	height: 30em;
+}
+.images{
+		
+		height: 40vh;
+		width: 50vh;
+		position: relative;
+		margin-left: 6em;
+
+}
+
+
+.scroll1{
+	width: 10em;
+		border: 1px solid black;
+	height: auto;
+	margin-left: 5.5em;
+	margin-top:3em;
+
+}
+.scroll2{
+	position: absolute;
+	width: 10em;
+		border: 1px solid black;
+	height: auto;
+left:12em;
+	margin-top:3em;
+		z-index: -1;
+		transform: rotate(20deg);
+}
+.scroll3{
+	position: absolute;
+	width: 10em;
+		border: 1px solid black;
+	height: auto;
+	left: .1em;
+	margin-top:3em;
+	transform: rotate(-20deg);
+		z-index: -1;
+}
+/*script to be added to make an image slideshow*/
+@media only screen and (max-width:1081px){
+	body{
+		padding: 0;
+	margin: auto;
+	position: relative;
+	min-height: 100vh;
+	background-image: url("back.jpg");
+	background-size: cover;
+	color: white;
+	}
+	.scroll2{
+		display: none;
+	}
+	.scroll3{
+		display: none;
+	}
+	.header{
+		height: 2em;
+		width: 100%;
+	}
+	#logo{
+	border:  1px solid black;
+	width:2em;
+	height: 1em;
+	margin-top: .5em;
+	margin-left: 1em;
+}
+#company_name{
+	position: absolute;
+	margin-left: 4em;
+	font-size: 1em;
+	margin-top: .6em;
+	
+}
+.nav{
+
+	margin-right: 2em;
+box-sizing: border-box;
+position: absolute;
+top:57px;
+right: 5px;
+/*how to allign without negative measurements*/ 
+	/*use position*/
+	
+	
+}
+.navtag{
+height: 1.5em;
+width: 2em;
+border:  1px solid black;
+padding-left: .5em;
+margin-top:0em;
+
+}
+#name{
+	margin-left:35vw;
+	
+	font-size: 1.4em;
+font-weight: bolder;
+}
+.border{
+	width: 99.8%;
+	background: #95C5DA;
+position: relative;
+top:1em;
+border:  1px solid white;
+}
+.add2{
+	position: relative;
+	top: 4em;
+	float: right;
+	width: 7em;
+	border: 1px solid black;
+	margin-right:1em;
+	height: 20em; 
+
+
+}
+
+.add1{position: relative;
+	top: 4em;
+	margin-left:1em;
+	
+	width: 7em;
+	border: 1px solid black;
+	height: 20em;
+}
+.body{
+	
+	width: 50%;
+position: absolute;
+top:10vh;
+	margin-left: 25vw;
+	
+}
+body h2{
+
+	margin-left: 10vw;
+} 
+.scroll1{
+	width: 10em;
+		border: 1px solid black;
+	height: auto;
+	margin-left: 2.5em;
+	margin-top:3em;
+
+}
+p{
+	font-size: 10px;
+}
+.images{
+		
+		height: 40vh;
+		width: 50vh;
+		position: relative;
+		margin-left: 6em;
+		margin-bottom: 100px;
+
+}
+}
